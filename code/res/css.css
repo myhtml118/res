@@ -1,0 +1,261 @@
+
+.d1  {
+  position: relative;
+  width: 95%;
+  margin: 0 auto;
+}
+
+
+.d1 input {
+  width: 78%;
+  height: 42px;
+  padding-left: 10px;
+  border: 2px solid #3690cf;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  background: #F9F0DA;
+  color: #9E9C9C;
+}
+.d1 button {
+  position: absolute;
+  top: 0;
+  width: 16%;
+  height: 48px;
+  border: none;
+  background: #3690cf;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 16px;
+  color: #fff;
+}
+
+.search_h {
+		    font-size: 20px;
+		    font-family: 'Microsoft YaHei';
+		    color: #666;
+		    margin: 80px auto;
+		    line-height: 40px;
+        text-align: center;
+		}
+.search_h h1{
+  font-size: 40px;
+}
+
+.footer{
+  margin: 0px;
+      padding: 0px;
+  color: #979797;
+  text-align: center;
+}
+
+.quaiItem{
+  margin: 5px
+
+}
+
+
+
+
+
+
+
+
+
+
+	.layui-btn {
+	    display: inline-block;
+	    height: 38px;
+	    line-height: 38px;
+	    padding: 0 18px;
+	    background-color: #009688;
+	    color: #fff;
+	    white-space: nowrap;
+	    text-align: center;
+	    font-size: 14px;
+	    border: none;
+	    border-radius: 2px;
+	    cursor: pointer;
+	    opacity: .9;
+	    filter: alpha(opacity=90);
+	}
+
+	.layui-btn, .layui-input, .layui-select, .layui-textarea, .layui-upload-button {
+			outline: 0;
+			-webkit-transition: border-color .3s cubic-bezier(.65,.05,.35,.5);
+			transition: border-color .3s cubic-bezier(.65,.05,.35,.5);
+			box-sizing: border-box;
+	}
+
+	.layui-btn-mini {
+		height: 25px;
+line-height: 25px;
+padding: 0 15px;
+font-size: 14px;
+text-decoration-line: none;
+	}
+
+
+
+  .loginPanel{
+		text-align: center;
+	}
+
+	.loginPanel .title {
+	    text-align: center;
+	    font-size: 20px;
+	}
+
+	.loginPanel .qrcode {
+    width: 200px;
+    margin-top: 15px;
+    border: 1px solid #E2E2E2;
+}
+
+.menutop{
+font-size: 18px;
+	    text-decoration-line: none;
+      color: blue;
+}
+
+.menutopDiv{
+	display: inline-block;
+    float: left;
+}
+.loginInfoDiv{
+	display: inline-block;
+    float: right;
+}
+
+.task_remind{
+  color: red;
+    text-align: left;
+}
+
+
+
+	.toast-wrap{
+      opacity: 0;
+      position: fixed;
+      top: 40%;
+      color: #fff;
+      width: 100%;
+      text-align: center;
+   }
+   .toast-msg{
+      background-color: rgba(0,0,0,0.7);
+      padding: 20px;
+      border-radius: 5px;
+   }
+  .toastAnimate{
+      animation: toastKF 6s;
+  }
+  @keyframes toastKF{
+      0% {opacity: 0;}
+     25% {opacity: 1; z-index: 9999}
+     50% {opacity: 1; z-index: 9999}
+     75% {opacity: 1; z-index: 9999}
+     100% {opacity: 0; z-index: 0}
+  }
+
+
+
+
+	.barcontainer{
+			 margin-top: 30px;
+		   width:450px;
+		   border:1px solid #6C9C2C;
+		   height:25px;
+		 }
+		#bar{
+		   background:#95CA0D;
+		   float:left;
+		   height:100%;
+		   text-align:center;
+		   line-height:150%;
+		 }
+
+		.rePlayBtn{
+			margin-top: 8px;
+			height: 48px;
+			border: none;
+			background: #d47977;
+			border-radius: 5px;
+			cursor: pointer;
+			font-size: 16px;
+			color: #fff;
+			padding: 10px 20px;
+		}
+
+	.filtergray	{-webkit-filter: grayscale(100%);filter:progid:DXImageTransform.Microsoft.BasicImage(graysale=1);}
+
+    	.box {
+	   background: #fff;
+	   -webkit-border-radius: 2px;
+	   -moz-border-radius: 2px;
+	   border-radius: 2px;
+	   overflow: hidden;
+	   -webkit-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1), 0 1px 2px -1px rgba(0, 0, 0, 0.1), 0 1px 5px 0 rgba(0, 0, 0, 0.1);
+	   -moz-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1), 0 1px 2px -1px rgba(0, 0, 0, 0.1), 0 1px 5px 0 rgba(0, 0, 0, 0.1);
+	   /* box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1), 0 1px 2px -1px rgba(0, 0, 0, 0.1), 0 1px 5px 0 rgba(0, 0, 0, 0.1); */
+	   box-shadow: 0 0 15px #ddd;
+		padding: 0px;margin-top: 10px;
+	}
+
+        @media screen and (max-width:500px){
+
+        .d1 button {
+
+            width: 20%;
+         }
+    }
+
+
+  .code-tips {
+
+	    width: 180px;
+	    z-index: 100;
+			margin: 0px auto;
+	}
+
+ .showflag {
+	display:none;
+
+}
+
+
+
+
+
+.common-text {
+  height: 23px;
+  line-height: 23px;
+  padding: 2px 4px;
+  border: 1px solid #ccc;
+  background: #fff;
+  border-radius: 5px;
+}
+.loginPanel input {
+
+
+    background: #fff;
+    padding: 5px;
+    border-radius: 2px;
+    border: 1px solid #ddd;
+    -webkit-appearance: none;
+}
+
+.loginPanel .Submit {
+    width: 80px;
+    line-height: 25px;
+    background: #fff;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 2px;
+    border: 1px solid #ddd;
+    -webkit-appearance: none;
+}
+
+
+
+
+
