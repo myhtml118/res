@@ -256,8 +256,8 @@ function runProgress(){
 			var sign=$("input[name='sign']").val();
 			var type=$('input:radio[name="downType"]:checked').val();
 			var hsgt=getCookie("hsgt");
-
-				var cgUrl=preDir+"cg.php?dtype=hasAuth&type="+type+"&t="+t+"&sign="+sign+"&hsgt="+hsgt;
+                      var did=devId; 
+				var cgUrl=preDir+"cg.php?dtype=hasAuth&type="+type+"&t="+t+"&sign="+sign+"&hsgt="+hsgt+"&did="+did;
 
 				$.ajax({
 							type: "GET",
@@ -288,7 +288,7 @@ function runProgress(){
 							},
 							error: function (e) {
 								console.log("error",e)
-								alert("网络错误！");
+								alert("网络错误！如果一段时间未操作，请重新刷新页面！");
 
 							}
 					});
